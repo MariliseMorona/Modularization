@@ -1,0 +1,39 @@
+{
+  "name": "ChartFeature",
+  "version": "0.1.0",
+  "summary": "A short description of ChartFeature.",
+  "description": "Feature for creation of the graphics.",
+  "homepage": "https://github.com/Marilise Morona/ChartFeature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marilise Morona": "marilise.morona@zarpsystem.com.br"
+  },
+  "source": {
+    "git": "https://github.com/Marilise Morona/ChartFeature.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "ChartFeature/Classes/**/*",
+  "default_subspecs": "Release",
+  "dependencies": {
+    "Charts": [
+
+    ],
+    "TinyConstraints": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/ChartFeature.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}
